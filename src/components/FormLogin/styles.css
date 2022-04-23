@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    background-color: #121214;
+}
+
+.form-login {
+    width: 296px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #212529;
+    border-radius: 3.21px;
+    height: 430.6883544921875px;
+    border-radius: 3.208672046661377px;
+    padding: 34px, 18px, 34px, 18px;
+
+    }
+
+    .sub-title {
+        color: #F8F9FA;
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0em;
+        padding-top: 33px;
+    }
+
+    .label-form-login {
+        color: #F8F9FA;
+        font-family: 'Inter';
+        font-size: 10px;
+        font-weight: 400;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 17.65px;
+    }
+
+    .input-form-login {
+        height: 38.504066467285156px;
+        width: 264.6582946777344px;
+        display: block;
+        background: #343B41;
+        border: 0.9772px solid #F8F9FA;
+        box-sizing: border-box;
+        border-radius: 3.20867px;
+        background: #343B41;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        padding-left: 13px;
+        margin-left: 17.65px;
+        margin-top: 10.92px;
+        margin-bottom: 21.39px;
+        color: #F8F9FA;
+    }
+
+    .button-login {
+        width: 259.9px;
+        height: 38.5px;
+        border: 1.2182px solid #FF577F;
+        box-sizing: border-box;
+        border-radius: 4.06066px;
+        background: #FF577F;
+        padding: 0px 22.3336px;
+        color: #fff;
+        margin-left: 18.65px;
+        margin-top: 5px;
+        margin-bottom: 25.27px;
+    }
+
+    .button-login:hover {
+        background-color: #FF427F;
+    }
+
+    .info-login {
+        color: #868E96;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Inter';
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 17px;
+    }
+
+    .register-login {
+        height: 38.504066467285156px;
+        width: 259.9024353027344px;
+        left: -0.00048828125px;
+        top: 0.00048828125px;
+        border-radius: 4px;
+        padding: 0px, 22px, 0px, 22px;
+        color: #F8F9FA;
+        background: #868E96;
+        border: 1.2182px solid #868E96;
+        box-sizing: border-box;
+        border-radius: 4px;
+        margin-left: 17.65px;
+    }
+
+    .register-login:hover {
+        background-color: #343B41;
+    }
+
+@media (min-width: 1000px) {
+    .form-login {
+        height: 502px;
+        width: 369px;
+        }
+
+        .sub-title {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 28px;
+            letter-spacing: 0em;
+        }
+
+        .label-form-login {
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: 0em;
+            margin-left: 22px;
+        }
+
+        .input-form-login {
+            margin-left: 22px;
+            height: 48px;
+            width: 329.92877197265625px;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
+
+        .button-login {
+            margin-left: 22.5px;
+            height: 48px;
+            width: 324px;
+            border-radius: 4.060661792755127px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 26px;
+            letter-spacing: 0em;
+        }
+
+        .info-login {
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 18px;
+            letter-spacing: 0em;
+            margin-bottom: 22px;
+        }
+
+        .register-login {
+            margin-left: 22.5px;
+            height: 48px;
+            width: 324px;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 26px;
+            letter-spacing: 0em;
+        }
+}
+    
