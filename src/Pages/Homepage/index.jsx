@@ -3,9 +3,14 @@ import './styles.css'
 function Homepage () {
     return (
         <>
-            <main>
-                <h1>Home page</h1>
-            </main>
+            <aside>
+                <h1 className='title-home'>Kenzie Hub</h1>
+                <button className='button-exit'>Sair</button>
+            </aside>
+            <header>
+                <h1 className='name'>Olá, Samuel Leão</h1>
+                <p></p>
+            </header>
         </>
     )
 }

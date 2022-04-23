@@ -8,15 +8,15 @@ function Rotes () {
         <>
         <Switch>
             <Route path="/">
-                <Login/>
+                <Homepage/>
             </Route>
 
             <Route path="/Register">
-                <Register/>
+                <Login/>
             </Route>
             
             <Route path="/Home">
-                <Homepage/>
+                <Register/>
             </Route>
         </Switch>
         </>
