@@ -1,0 +1,15 @@
+.title {
+    margin-top: 81px;
+    text-align: center;
+    color: #FF577F;
+    font-size: 20px;
+    border-radius: 0px;
+}
+
+@media (min-width:1000px) {
+    .title {
+        margin-top: 77px;
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+}
