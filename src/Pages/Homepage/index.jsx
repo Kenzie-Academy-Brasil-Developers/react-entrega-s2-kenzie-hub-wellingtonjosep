@@ -16,6 +16,8 @@ function Homepage () {
     
     const history = useHistory()
 
+    const [isOpen, setIsOpen] = useState(false)
+
     const [name, setName] = useState('')
     const [module, setModule] = useState('')
     const [list, setList] = useState('')
@@ -60,8 +62,10 @@ function Homepage () {
             </header>
 
             <main className='main-home'>
-                <List list={list}/>
-                <Modal/>
+                <List list={list} setIsOpen={setIsOpen}/>
+                {
+                    isOpen && <Modal setIsOpen={setIsOpen} token={token}/>
+                }
             </main>
             
         </>
