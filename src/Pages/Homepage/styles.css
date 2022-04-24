@@ -61,6 +61,11 @@
         color: #F8F9FA;
         margin-top: 35.5px;
         margin-left: 13px;
+        width: 180px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        vertical-align: top;
+        height: 34px;
     }
 
     .module {
@@ -94,7 +99,8 @@
         }
 
         .module {
-            margin-left: 390px;
+            margin-left: 340px;
+            margin-top: 41px;
         }
 
         .name, .module {

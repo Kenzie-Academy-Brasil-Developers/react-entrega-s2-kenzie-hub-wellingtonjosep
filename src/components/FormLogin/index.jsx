@@ -26,7 +26,7 @@ function FormLogin () {
             console.log(response)
             localStorage.setItem('authorization', response.data.token)
             localStorage.setItem('enter', response.data.user.id)
-            toast.success('Login autorizado', {
+            toast.success('Autorizado', {
                 position: "top-right",
                 autoClose: 5000,
                 hideProgressBar: false,
