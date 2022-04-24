@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.list {
+
+    }
+
+    .title-list {
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 18px;
+        letter-spacing: 0em;
+
+    }
+
+    .add-list {
+
+    }
+
+    .title-list, .add-list {
+        display: inline-block;
+    }
+
+    .showcase {
+
+    }
