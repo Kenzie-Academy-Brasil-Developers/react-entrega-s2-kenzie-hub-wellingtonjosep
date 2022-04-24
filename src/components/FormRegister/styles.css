@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 .form-register {
-    height: 595.4666137695312px;
     width: 295.8265075683594px;
     border-radius: 3.198124408721924px;
     padding: 34px, 18px, 34px, 18px;
@@ -68,15 +67,23 @@
         color: #fff;
         margin-left: 18px;
         cursor: pointer;
+        margin-bottom: 25px;
     }
 
     .button-register:hover {
-        background-color: #FF427F;
+        background-color: #868E96;
+        border: 1.22px solid #868E96;
+    }
+
+    .error {
+        margin: 0px;
+        color: rgb(255,0,0);
+        margin-left: 17px;
+        font-size: 12px;
     }
 
 @media (min-width: 1000px) {
     .form-register {
-        height: 771px;
         width: 370px;
         }
 
