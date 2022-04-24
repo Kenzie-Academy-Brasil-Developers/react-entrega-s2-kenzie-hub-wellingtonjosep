@@ -42,7 +42,7 @@ function FormRegister () {
         .then((response) => {
             console.log(response)
             toast.success('Conta criada com sucesso!')
-            history.push('/register')
+            history.push('/')
         })
         .catch((err) => {
             if (err.message === 'Request failed with status code 401') {
