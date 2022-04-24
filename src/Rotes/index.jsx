@@ -5,21 +5,17 @@ import Login from "../Pages/Login";
 import Register from "../Pages/Register";
 function Rotes () {
     return (
-        <>
         <Switch>
             <Route path="/">
-                <Homepage/>
-            </Route>
-
-            <Route path="/Register">
-                <Login/>
-            </Route>
-            
-            <Route path="/Home">
                 <Register/>
             </Route>
+            <Route path="/register">
+                <Login/>
+            </Route>
+            <Route path="/home">
+                <Homepage/>
+            </Route>
         </Switch>
-        </>
     )
 }
 
