@@ -6,13 +6,13 @@
     position: fixed;
     width: 100vw;
     background-color: #121214;
+    text-align: center;
     }
 
     .title-home {
         color: #FF577F;
         font-size: 20px;
         margin: 0px;
-        margin-left: 13px;
         margin-top: 24px;
     }
 
@@ -46,6 +46,12 @@
     border: 1px solid #212529;
     }
 
+    .info-home {
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .name {
         font-family: 'Inter';
         font-size: 18px;
@@ -68,3 +74,30 @@
         margin-bottom: 35.5px;
     }
 
+@media (min-width: 768px) {
+    .button-exit {
+        margin-left: 300px;
+    }
+
+    .info-home {
+        width: 488px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .button-exit {
+        margin-left: 610px;
+    }
+
+    .info-home {
+        width: 800px;
+        }
+
+        .module {
+            margin-left: 390px;
+        }
+
+        .name, .module {
+            display: inline-block;
+        }
+}

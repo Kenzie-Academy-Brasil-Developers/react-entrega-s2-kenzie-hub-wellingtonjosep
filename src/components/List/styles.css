@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 .list {
-
+    text-align: center;
     }
 
     .title-list {
@@ -10,11 +10,23 @@
         font-weight: 600;
         line-height: 18px;
         letter-spacing: 0em;
-
+        color: #F8F9FA;
+        margin-top: 26px;
     }
 
     .add-list {
+        height: 32px;
+        width: 32.485294342041016px;
+        border-radius: 4px;
+        border: none;
+        background-color: #212529;
+        font-size: 20px;
+        color: #fff;
+        margin-left: 166px;
+    }
 
+    .add-list:hover {
+        background-color: #343B41;
     }
 
     .title-list, .add-list {
@@ -22,5 +34,35 @@
     }
 
     .showcase {
-
+        margin-top: 21px;
+        padding-bottom: 18px;
+        width: 296px;
+        border-radius: 4px;
+        background-color: #212529;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: top;
+        flex-wrap: wrap;
+        align-content: flex-start;
     }
+
+@media (min-width: 768px) {
+    .add-list {
+        margin-left: 338px;
+    }
+
+    .showcase {
+        width: 466px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .add-list {
+        margin-left: 648px;
+    }
+
+    .showcase {
+        width: 776px;
+    }
+}

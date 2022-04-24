@@ -1,11 +1,13 @@
 import './styles.css'
 
+import Button from '../../Button'
+
 function Item () {
     return (
-        <article className="item">
-            <h3>React JS</h3>
-            <p>Intermediário</p>
-        </article>
+        <Button className="item">
+            <h3 className='title-item'>React JS</h3>
+            <p className='description-item'>Intermediário</p>
+        </Button>
     )
 }
 
