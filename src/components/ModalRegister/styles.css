@@ -106,3 +106,58 @@
                 margin-top: 17px;
                 color: #fff;
             }
+@media (min-width: 768px) {
+    .modal {
+        width: 369px;
+        }
+
+        .close-modal {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin-left: 170px;
+        }
+
+        .title-modal {
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
+
+        .label-modal {
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
+
+        .input-modal {
+            width: 320px;
+            height: 48px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        .select-modal {
+            width: 334px;
+        }
+
+        .button-register-modal {
+            width: 334px;
+            height: 48px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 26px;
+            letter-spacing: 0em;
+        }
+
+}
