@@ -12,8 +12,10 @@ function Homepage () {
             </nav>
 
             <header className='header-home'>
-                <h1 className='name'>Olá, Samuel Leão</h1>
-                <p className='module' >Primeiro módulo (Introdução ao Frontend)</p>
+                <section className='info-home'>
+                    <h1 className='name'>Olá, Samuel Leão</h1>
+                    <p className='module' >Primeiro módulo (Introdução ao Frontend)</p>
+                </section>
             </header>
 
             <main className='main-home'>
