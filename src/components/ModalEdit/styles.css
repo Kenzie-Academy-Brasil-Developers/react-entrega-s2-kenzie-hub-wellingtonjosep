@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@400;600&display=swap');
+
+.input-modal-edit {
+    display: block;
+    height: 38px;
+    width: 250px;
+    border-radius: 3.197831869125366px;
+    padding-left: 10px;
+    background-color: #343B41;
+    color: #868E96;
+    margin-left: 17px;
+    border: 1px solid #343B41;
+}
+
+.input-modal-text-edit {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.select-modal-edit {
+    width: 264px;
+    margin-top: 10px;
+}
+
+.button-edit-modal {
+    width: 163px;
+    height: 38px;
+    background-color: #59323F;
+    border: 1.22px solid #59323F;
+    border-radius: 4px;
+    margin-left: 17px;
+    margin-top: 16px;
+    color: #fff;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+
+.button-delete {
+    margin-left: 18px;
+    height: 38px;
+    width: 78px;
+    background-color: #868E96;
+    border: 1.22px solid #868E96;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .input-modal-edit {
+        width: 320px;
+        height: 48px;
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+    }
+
+    .input-modal-text-edit {
+
+    }
+
+    .select-modal-edit {
+        width: 334px;
+    }
+
+    .button-edit-modal {
+        width: 214px;
+    }
+
+    .button-delete {
+        width: 100px;
+    }
+
+    .button-delete, .button-edit-modal {
+        font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0em;
+        height: 48px;
+    }
+}

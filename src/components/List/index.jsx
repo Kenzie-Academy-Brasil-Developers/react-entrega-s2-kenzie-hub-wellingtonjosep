@@ -3,7 +3,7 @@ import './styles.css'
 import Item from './Item'
 import Button from '../Button'
 
-function List ({list, setIsOpen}) {
+function List ({list, setIsOpen, setEdit, setInfoClick}) {
     return (
         <section className="list" >
             <h2 className="title-list">Tecnologias</h2>
@@ -11,7 +11,7 @@ function List ({list, setIsOpen}) {
             <section className="showcase">
                 {
                     list && list.map((technology, index) => {
-                        return <Item key={index} technology={technology}/>
+                        return <Item setInfoClick={setInfoClick} setEdit={setEdit} technology={technology}/>
                     })
                 }
             </section>

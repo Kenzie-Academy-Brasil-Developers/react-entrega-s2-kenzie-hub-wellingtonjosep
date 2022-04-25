@@ -3,6 +3,7 @@ import './styles.css'
 import Button from '../../components/Button'
 import List from '../../components/List'
 import Modal from '../../components/ModalRegister'
+import ModalEdit from '../../components/ModalEdit'
 
 import { useHistory } from 'react-router-dom/cjs/react-router-dom.min'
 import { useEffect, useState } from 'react'
@@ -17,6 +18,9 @@ function Homepage () {
     const history = useHistory()
 
     const [isOpen, setIsOpen] = useState(false)
+    const [edit, setEdit] = useState(true)
+
+    const [infoClick, setInfoClick] = useState({})
 
     const [name, setName] = useState('')
     const [module, setModule] = useState('')
@@ -62,9 +66,12 @@ function Homepage () {
             </header>
 
             <main className='main-home'>
-                <List list={list} setIsOpen={setIsOpen}/>
+                <List list={list} setIsOpen={setIsOpen} setEdit={setEdit} setInfoClick={setInfoClick}/>
                 {
                     isOpen && <Modal setIsOpen={setIsOpen} token={token}/>
+                }
+                {
+                    edit && <ModalEdit infoClick={infoClick} setEdit={setEdit} token={token}/>
                 }
             </main>
             
