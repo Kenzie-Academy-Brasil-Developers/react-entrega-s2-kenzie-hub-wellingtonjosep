@@ -18,7 +18,7 @@ function Homepage () {
     const history = useHistory()
 
     const [isOpen, setIsOpen] = useState(false)
-    const [edit, setEdit] = useState(true)
+    const [edit, setEdit] = useState(false)
 
     const [infoClick, setInfoClick] = useState({})
 
@@ -35,11 +35,22 @@ function Homepage () {
         history.push('/')
     }
 
+    function atualization () {
+        axios.get(`https://kenziehub.herokuapp.com/users/${userId}`)
+        .then((response) => {
+
+            const first = response.data.name.split(' ')
+
+            setName(first[0])
+            setModule(response.data.course_module)
+            setList(response.data.techs)
+        })
+    }
+
     useEffect(() => {
         function getInfo () {
             axios.get(`https://kenziehub.herokuapp.com/users/${userId}`)
             .then((response) => {
-                console.log(response.data)
 
                 const first = response.data.name.split(' ')
 
@@ -49,7 +60,7 @@ function Homepage () {
             })
         }
         getInfo()
-    },[])
+    },[list])
     
     return (
         <>
